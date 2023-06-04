@@ -1,0 +1,61 @@
+.bid {
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 50px;
+    width: 300px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    width: 500px;
+    margin-left: 500px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 750px;
+    margin-top: 50px;
+  }
+  
+  .name,
+  .email,
+  .item-id,
+  .bid {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .bidbutton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+    margin-left: 700px;
+  }
+  
+  .bidbutton:hover {
+    background-color: #0056b3;
+  }
+  
